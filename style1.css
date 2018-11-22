@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.header {
+  background-color: rgb(66, 134, 244);
+  color: rgb(201, 214, 234);
+}
+
+.header .container {
+  padding: 10px 15px;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+span {
+  font-size: 20px;
+  font-style: italic;
+  color: aqua;
+}
+
+.featured {
+  font-size: 0;
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+
+.articles {
+  font-size: 0;
+}
+
+.articles > div {
+  display: inline-block;
+  font-size: initial;
+  padding: 0 5px;
+  vertical-align: top;
+  width: 33.33%;
+}
+
+.articles h2 {
+  margin: 10px 0 5px;
+}
